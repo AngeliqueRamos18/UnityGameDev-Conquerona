@@ -1,0 +1,76 @@
+Ramos052821_D
+
+ALL
+	> Added another line of codes in AudioManager Script
+	> Added new sequence of the scenes
+
+Added Disclaimer Scene
+	> Added script Disclaimer in Menu folder scripts
+	> Added gameobject Canvas, Texts and Black
+
+MessedUpQuarantineCamp
+	> Added scripts:
+		MessedUpCamp_VolumeSlider
+		MessedUpCamp_SetCurrentVolume
+		AudioManager_MessedUpCamp
+	> Added Audio Function of the scene
+	> Attached the Dialog Script from Canvas to Player
+	> Revised scripts:
+		Dialog Manager and Dialog Script of the scene
+	> Added Cinemachinebrain
+	> Fixed Dialogue not hiding after the conversation
+	> Added Door gameobject which connects to BattleModeFinal
+
+BattleModeFinal
+	> Added scripts:
+		AudioManager_BattleModeFinal
+		BattleModeFinal_VolumeSlider
+		BattleModeFinal_SetCurrentVolume
+		CureTargetsMission (For counting the targets) attach it in Gameobject targets
+	> Copied gameobjects from MessedUpCamp:
+		CanvasButtons (only the btnSettings and ingamesettings)
+		DialogSystem_BattleModeFinal
+		CutsceneDialogManager_BattleModeFinal
+	> Added GameObjects:
+		TargetPanel
+	> Set the diagonal buttons' disabled color to 0
+	> Added gameobject DoorBossFight
+	> Added new Folder in Animatoions > Scene_0_BattleModeFinal
+	> Added controllers:
+		Black
+	> Added anims:
+		FadeIn
+		FadeOut
+	> Added scripts:
+		Scene_BattleModeFinal_Script (for signs)
+
+
+Cutscene_BossFightIntro_NEW
+	> Attached Cutscenechanger script on Red gameobject
+	  to activate function of trigger load scene by animation
+
+Scene_0_BossFight_NEW
+	> Added gameobject Red in Canvas gameobject
+	> Added anims:
+		FadeIn
+		FadeOutComplete
+		Victory
+	> Added controllers:
+		Red
+		BlackComplete
+		Victory2
+	> Revised Target_MainFunctions_BossCoco Script
+	> Added scripts:
+		CutsceneChanger_BossFight > attached to BlackComplete 		gameobject
+
+
+Cutscene_0_BossFightOutro_NEW
+	> Revised anim
+		FadeIn para sa Gameobject Black (pinahaba ang duration ng fade ng black)
+	> Copied gameobjects from BattleModeFinal
+		CanvasButtons (Ingamesettings ang btnsettings only)
+	> Fixed the audio manager
+
+
+//TODO: START KA SA BATTLEBOSSFIGHT NA COLLIDER LAST NA YUN NA LALAGYAN
+

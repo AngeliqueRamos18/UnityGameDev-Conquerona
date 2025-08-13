@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - NPC_Police2
+  - NPC_Police1
+  - NPC_Frontliner1
+  - NPC_Sign1
+  - settings
+  - Enemy_1
+  - Enemy_2
+  - bullet
+  - Melee
+  - NPC_Frontliner2
+  - NPC_Robert
+  - Boss_Coco
+  - bullet_Target
+  - ITT_Door
+  - NPC_Veteran
+  - NPC_Sis
+  - NPC_Maria
+  - NPC_Coco
+  - ITTVS_Door
+  - NPC_Jessie
+  - Battle_Door
+  - BattleModeFinal_Signs
+  - BattleModeFinal_Signs2
+  - BattleModeFinal_Signs3
+  - BattleModeFinal_Signs4
+  - BattleModeFinal_Signs5
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - Player
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: background
+    uniqueID: 373543815
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0

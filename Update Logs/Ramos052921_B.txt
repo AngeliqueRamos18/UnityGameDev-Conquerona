@@ -1,0 +1,27 @@
+Ramos052921
+
+ALL:
+	Added Script PCVersion in the Scripts Folder
+	In all scenes that requires movements, attach the PCVersion
+	to the EventSystem then create another Canvas named Controls.
+	btnTalk Gameobject must be moved to CanvasButtons
+	
+	> Revised all scripts in scenes that requires movement or collision to npcs for the btnTalk adjustments
+
+//Note:
+	- if you cant press the android version player control after
+	  adding the canvas control, make the sort layer into 1 and the
+	  canvasbutton to 0 in default
+	
+	- if the black fade in image doesnt seem to cover the controls
+	  in android version, move the Black gameobject in the 
+	  Controls Canvas
+
+MessedUpTent, MessedUpQuarantine
+	- Added BlackControl gameobject inside the Control Canvas and 
+	  revised the script MainQuest so that it will activate the animation
+          of fade out and completely cover the buttons
+
+
+BossFightIntro, BossFightOutro
+	- Not included in the pcversion fixes, no need

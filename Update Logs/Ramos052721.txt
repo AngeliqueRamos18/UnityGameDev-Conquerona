@@ -1,0 +1,53 @@
+Ramos052721
+
+ALL:
+	> Changed the loadscene in Go Home 	  script
+
+Inside The Tent
+	> Fixed Audio manager inspector
+
+Inside The Tent (Vaccine Shot)
+	> Fixed the playermovement script	
+	  for the vaccine shot
+	> Added new bool in ItemPickUp
+	> Removed the current dialogmanager
+	  script
+	> Removed the current dialog script
+	> Renamed dialog system to
+	  DialogSystem_InsideTheTentVS
+	> Created new script:
+		DialogManager_InsideTheTentVS
+
+Inside The Tent 2
+	> Activated bag hitbox
+	> Fixed anchor of bag icon and 	          inventory box
+	> Replaced DialogManager to new
+	  lines of code
+	> Fixed the nullreference of
+	  getting the vaccine shot
+
+Quarantine camp
+	> Added bag icon feature when
+	  player goes outside the tent
+	> Detects the vaccine shots if its
+          in the bag
+	> Fixed anchor of bag icon and           inventory
+	> Added anims:
+		> Coco_Tutorial
+	> Added movement tutorial dialogue
+
+
+
+
+AFTER MERGE NOTES:
+	> Hindi ko alam sa Scene_0_BossFight may isang part nung nakalaban ko siya yung animation niya na isa na parang nagsostomp, napaulit-ulit hanggang sa di na makagalaw. Di maiwasan kasi parati na magkaroon ng conflict. Pero nung inisang try ko pa okay naman
+
+	> From your update logs:
+
+	/2. ExclamationPoint
+			- Made this prefab by inserting the ExclamationPoint gameObject from 		Target_S2
+		TARGET_S1
+		TARGET_S2
+			- ExclamationPoint was a prefab, it was then unpacked
+                <!!ANGEL!!> Not sure kung saan ito iinsert yung prefab at iunpack double
+		check nalang kung tama ang nagawa

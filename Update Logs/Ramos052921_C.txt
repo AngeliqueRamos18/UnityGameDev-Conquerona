@@ -1,0 +1,46 @@
+Ramos052921_C
+
+ALL
+	- imported UI_InteractButtons_Get
+	- imported UI_InteractButtons_Read
+
+InsideTheTent VaccineShot
+	- Revised the Itempickup Script (stop player movmenet while
+	  colliding)
+
+BattleMode_Tutorial
+	- added pause script in Eventsystem
+	- set onclick function of pause in btn settings and btnhome and 	  btnclose
+	- Added pc version script in eventsystem	
+
+BattleModeFinal
+	- Added pause script in Event System
+	- Added read function in every signs
+	- In btnSetting and readbtn on click function, call pausegame
+	- In btnClose & btnHome of ingamesettings and nextdialoguebutton, 	  call pausegame
+
+BossFight
+	- Added pause feature in Ingame settings
+	- added pause script in EventSystem
+
+
+Note for Xena:
+	To create restart button, create a script first then make
+	a function called Restart();
+
+	import also on the top this code
+	using UnityEngine.SceneManagement;
+
+	Restart(){
+		SceneManager.LoadScene(# of Scene of the current battlemode);
+		// you can check it in File > Build project > and the number
+		of the scene
+	}
+
+	Create button, then attach the script, in the onclick function,
+	drag the button there and call the function Restart();
+	
+	
+
+
+

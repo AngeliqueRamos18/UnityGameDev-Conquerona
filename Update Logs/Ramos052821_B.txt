@@ -1,0 +1,68 @@
+Ramos052821_B
+
+ALL
+	> Added new scenes in the build projects (in sequence based on the
+	 cutscene scripts word document file)
+	> Changed the script AudioManager
+
+Quarantine Camp
+	> Fixed anchor of UI Inventory and Bag Icon
+	> Removed unnecessary character from Maria's dialogue
+
+BattleMode_Tutorial
+	> Added transition from BattleMode to InsideTheTent3
+	> Applied cutscenechanger script on white gameobject
+
+InsideTheTent3
+	> Changed the Black gameobject into White
+	> Fixed the entry FadeIn into white
+	> Adjusted DialogManager to make the next button not appear for 
+	  a few seconds so that animation will take time to finish before
+	  getting ruined by fast clicking
+	> Applied cutscenechanger on Black2 Gameobject
+	> Fixed the Audio Manager
+
+MessedUpTent
+	> Copied gameobjects from ITT3_NEW:
+		MainCanvas
+		SFX_InsideTheTent3 > Renamed into SFX_MessedUpTent
+		Player
+	> Added new script:
+		AudioManager_MessedUpTent
+		MessedUpTent_SetCurrentVolume
+		MessedUpTent_VolumeSlider
+	> Unpacked Stand_Maria
+	> Disabled scripts in Player gameobject:
+		Touch Joystick
+		Player Damaged
+		Material_Tint Damaged
+!!!! Difficult to manually apply the Player gameobject, had to duplicate from another scene
+	> Duplicated Scene from InsideTheTent3_NEW and renamed it into
+	  Scene_0_MessedUpTent_NEW
+
+Scene_0_MessedUpTent_NEW
+	> Fixed Audio Manager
+	> Added anim:
+		Maria_Start_Concerned
+	> Enabled the cinemachinebrain component in camera and vcam
+	> Added collider to Maria
+	> Attach Dialog Script to the player only
+	> Added controller:
+		Black
+	> Added anims:
+		FadeIn <Longer version para magmukhang kagigising lang ni kael
+		FadeOut
+		
+
+	
+
+
+NOTES:
+	Animations of tutorial battle, veteran is not moving
+
+
+
+
+Notes for myself
+	> InsideTheTent fade out transition when going out doesnt work
+	

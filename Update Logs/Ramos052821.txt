@@ -1,0 +1,84 @@
+Ramos052821
+
+BossFightIntro
+	> Duplicated it from Scene_0_BossFight
+	  then renamed it into Cutscene_BossFightIntro_NEW
+	> Removed the scripts:
+		Target_MainFunctions_Boss Coco
+		Target Damage Script Boss
+	> Deleted Gameobjects:
+		Move Spots
+		Exit Spots/]=
+		Prototype_Enemy
+		Target_S1
+		Boss_Coco_Healthbar
+		ExclamationPoint
+		Boss_Coco
+		DialogueManager
+		NPCs
+		DialogSystem
+	> Duplicated Player and renamed it into Boss_Coco
+	> Added new controller in Cutscene_BossFightIntro:
+		Boss_Coco 
+		Black
+		Red
+		Player
+		Main Camera
+	> Added anims in Animations > Cutscene_BossFightIntro:
+		Boss_Coco_Talk
+		Boss_Coco_Anger
+		FadeIn
+		FadeOut
+		Player_Entry
+		camera
+	> Disabled:
+		Cinemachinebrain in CM vcam1 and Main_Camera
+	> Revised script: 
+		CutsceneDialogManager_BossFightIntro
+
+Cutscene_0_BossFightOutro_NEW
+	
+	> Duplicated from Cutscene_BossFightIntro_NEW
+	> Replaced the DialogManager and DialogSystem
+	> Added script:
+		> CutsceneDialogManager_BossFightOutro
+		> Cutscene_0_Boss Fight Outro
+		> FlipSprite on Stand_Veteran	
+		> FlipSprite on Coco	
+	> Added new controller in Animation > Cutscene_BossFightOutro:
+		Stand_Veteran
+		Coco
+		Player
+		Frontlinter1
+		Frontliner2
+		Main Camera
+		Hallucination
+		
+	> Added new anims:
+		Coco_Annoyed
+		Coco_Talk
+		Frontliner_Entry
+		Frontliner_Entry2
+		Veteran_Entry
+		Veteran_Talk
+		camera1
+		camera2
+		Coco_Go
+		Frontliner_Leave
+		Frontliner_Leave2
+		Veteran_Leave
+		Hallucination_Appear
+		Hallucination_Idle
+		HAllucination_Disappear
+		Kael_Up
+		Player_End
+
+		
+	
+		
+
+
+
+
+	
+

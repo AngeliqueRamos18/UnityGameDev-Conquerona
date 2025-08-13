@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Disclaimer.unity
+    guid: f048c373aafc4b64e827df54921c6985
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 974c305338cc60147bc398870e1a90b2
+  - enabled: 1
+    path: Assets/Scenes/Cutscene_0_InsideTheTruck.unity
+    guid: 9564ae47250689847b5447919eace59e
+  - enabled: 1
+    path: Assets/Scenes/Cutscene_0_OutsideTheTruck.unity
+    guid: b9d1d28fdb697dc4d8fcac0db67e264d
+  - enabled: 1
+    path: Assets/Scenes/Cutscene_0_QuarantineCamp.unity
+    guid: 0c8876197c587e748bebf4949209e3b5
+  - enabled: 1
+    path: Assets/Scenes/Cutscene_0_InsideTheTent.unity
+    guid: 9dd805f7bc050b2499a9fb063efd71ae
+  - enabled: 1
+    path: Assets/Scenes/Cutscene_0_InsideTheTent_VaccineShot_NEW.unity
+    guid: 23212949e6a9eb047bc9ed514a4e59c5
+  - enabled: 1
+    path: Assets/Scenes/Cutscene_0_InsideTheTent2_NEW.unity
+    guid: 90df017c30ede874d97ceeb14c09f9da
+  - enabled: 1
+    path: Assets/Scenes/BattleMode_Tutorial.unity
+    guid: 40f74c818e5dabb4fbc475692af1ab3c
+  - enabled: 1
+    path: Assets/Scenes/Cutscene_0_InsideTheTent3_NEW.unity
+    guid: 66787aa0e590ce646b4c27d12a5ae1f6
+  - enabled: 1
+    path: Assets/Scenes/Scene_0_MessedUpTent_NEW.unity
+    guid: 326ef37df35c63945a46daacceb59f2e
+  - enabled: 1
+    path: Assets/Scenes/Scene_0_MessedUpQuarantineCamp.unity
+    guid: a15b0d26c70e1d248abd3c8f9c2e2dd9
+  - enabled: 1
+    path: Assets/Scenes/Scene_0_BattleModeFinal.unity
+    guid: b82f96a8a6779474b82275f7ad04ff0e
+  - enabled: 1
+    path: Assets/Scenes/Cutscene_BossFightIntro_NEW.unity
+    guid: f43c73507b3928c40ad689cb057c5cfa
+  - enabled: 1
+    path: Assets/Scenes/Scene_0_BossFightNEW2.unity
+    guid: 59067f848dbc3204ba6b36ceae25a192
+  - enabled: 1
+    path: Assets/Scenes/Cutscene_0_BossFightOutro_NEW.unity
+    guid: dcc30c928523613429615b772da92808
+  m_configObjects: {}

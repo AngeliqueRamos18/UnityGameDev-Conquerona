@@ -1,0 +1,13 @@
+Ramos052921
+
+Inside The Tent 1-3, ITT_VaccineShot_NEW, and MessedUpTent_NEW
+	> Added colliders in QuarantineTent_Grid
+
+All Scenes
+	> Changed the size of NextDialogueButton
+
+
+
+Encountered erros:
+	> Animations in ITT3 are not working (Kael and Coco)
+		

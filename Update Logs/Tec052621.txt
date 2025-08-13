@@ -1,0 +1,139 @@
+5/26/21==========
+
+FOLDERS=========
+TAKE NOTE OF THE FF IMPORTS / EDITS:
+	IMAGES
+		/Boss_Bida_Talk_DefeatAnim
+			- Added at Sprites > 5_BossFight
+		/Bida_Walking_Medium_Tutorial_ShowSyringe_PPE_Mask
+			- Added at Sprites > 4_IIT3 anims
+		/Girl_Standing_Talk_Concerned_PPE
+			- Added at 2_Cutscene_Animations > 1_Maria
+		/Kael_Standing_Talk_Concern_PPE
+			- Added at 2_Cutscene_Animations > 1_Kael
+		/Bida_Walking_Medium_Tutorial_PunchKael_PPE
+			- Moved it to 4_IIT3 anims
+
+	ANIMATION CLIPS (Please Copy Paste)
+		/Boss_Coco_DefeatAnim
+			- Added in Animations > Scene_0_BossFight
+			- LoopTime is Unchecked
+		/Coco_IIT3_Infected
+			- Added in Animations > Cutsence_0_IIT3
+			- LoopTime is Unchecked
+		/Old_Cough
+		/Coco_ITT3_ShowSyringe
+			- Changed Coco_ITT3_ShowSyringe anim sprites
+		/Kael_ITT3_GoNear
+			- Changed Direction of Kael
+		/Coco_ITT3_Punch
+			- Changed Coco_ITT3_ShowSyringe anim sprites
+			- LoopTime is Unchecked
+
+	/ANIMATION FOLDERS
+		RENAMED  to Target_S1 and Enemy_S2 to Target_S2
+		CREATED A NEW FOLDER WITHIN SCENE6 NAMED "OLD TARGET ANIMS" AND MOVED THE FF. INSIDE THE FOLDER:
+			Target_S1
+			Target_S2
+			Target_S3
+			
+	/PREFABS
+		/1. Target_RS_Tutorial
+		/Target_S1
+		Target_S2
+			- Moved these to a new folder INSIDE the Tagets folder named OLD 
+TARGETS
+		/2. ExclamationPoint
+			- Made this prefab by inserting the ExclamationPoint gameObject from 		Target_S2
+		TARGET_S1
+		TARGET_S2
+			- ExclamationPoint was a prefab, it was then unpacked
+                <!!ANGEL!!> Not sure kung saan ito iinsert yung prefab at iunpack double
+		check nalang kung tama ang nagawa
+
+		/4. QuarantineCamp_Grid
+			- from Cutscene_0_QuarantineCamp
+
+
+	SCRIPTS
+		/Show_ExclamationPoint_BossCoco
+			- Duplicated Show_ExclamationPoint and renamed it to SShow_ExclamationPoint_BossCoco
+			- Adjusted content to fit BossCoco gameobject (Please Copy paste)
+
+
+	COPIED FROM OTHER UNITY PROJECT==============
+	PREFABS
+		/Target_S1
+			- Added Target_Bullet Prefab
+		/Target_S2
+			- Added CutsceneDestroyGameObject Script 
+			- Added Destroy Function in target_Animator_RecoveringCase_Walk
+			- Added Target_Bullet Prefab
+		/Target_S3
+			- Added CutsceneDestroyGameObject Script 
+			- Added Destroy Function in target_Animator_RecoveringCase_Walk
+			- Added Target_Bullet Prefab
+		/Target_S4
+			- Added CutsceneDestroyGameObject Script 
+			- Added Destroy Function in target_Animator_RecoveringCase_Walk
+
+		- Added Target_Bullet Prefab
+
+
+	/SCENES
+		Scene_0_BattleModeFinal	
+
+/Scene_0_BossFight==========
+	Changed layer of Boss_Coco to Enemy
+	/Adjusted Boss_Coco Animator
+	/Adjusted Target_MainFunctions_BossCoco
+		Code to switch stages when a certain health condition is reached
+		Adjusted the speed variable in the inspector
+		(Please Copy paste)
+	/Turned on Apply Root Motion in Player Animator
+	/Adjusted Enemy_BulletShoot to allow the code that destroys the gameobject after 3 seconds
+		(Please Copy paste)
+	/Created a new Behavior script named Boss_Coco_StateMachine_Enranged_Stage 2
+	/Adjusted Boss_Coco_StateMachine_Shoot_Stage1 to change firerate variable 
+		(Please Copy paste)
+	/Adjusted the variables of the animation clips within the animator of Boss_Coco
+	/Adjusted Attack_Melee Script to handle the multiple enemy scripts such as the tutorial, battle mode, and boss fight. 
+		(Please Copy paste)
+
+
+/Scene_0_BattleMode2==========
+	Allowed Apply Root Motion to Player animator
+
+
+/Cutscene_0_InsideTheTent=========
+	Added the SFX gameobject to the volume onClick Functions
+
+
+/Scene_0_BattleModeFinal==========
+	/Adjusted Target_MainFunctions_S1 to handle different attacks depending on the enemytype
+		(Please Copy paste)
+	/Added a trail Renderer component to all Targets (Including all of the Target Prefabs)
+		(Please Copy paste these prefabs)
+
+
+/Cutscene_0_MessedUpQuarantineCamp=========
+	/Imported QuarantineCamp_Grid Prefab
+
+
+/Cutscene_0_IIT3=========
+	/Adjusted CutsceneDialogManager_IIT3 for the anims 
+	/Changed order in layer of Volunteer_InsideTheTent to 2
+	/Created the ff. animation clips:
+		/Kael_ITT3_Concern
+		/Old_Concerned_Move
+			Unchecked Loop time
+		/Old_Concerned_Idle
+		/Kael_ITT3_Punch
+			Unchecked Loop time
+	/Removed the "Has Exit Time" on the ff. transitions:
+		/Coco_ITT3_ShowSyringe >  Coco_ITT3_Infected
+		/Coco_ITT3_Infected > Coco_ITT3_Punch
+		/Kael_ITT3_GoNear > Kael_ITT3_Concern
+		/Kael_ITT3_Concern > Kael_ITT3_Punch
+		
+	

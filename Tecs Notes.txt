@@ -1,0 +1,74 @@
+5/25/21==========
+
+Project======
+- imported the ff.:
+	UI_Dialouge_Cross2
+	GuardHouse
+
+
+Cutscene_0_ITTruck======
+	removed Stand_Veteran and duplicated it. 
+	Unpacked duplicated ver
+	Duplicated Stand_Veteran animator and renamed it to Stand_Veteran(Image)
+	Duplicated anim clips and renamed to the ff:
+	Veteran_Stand_Annoyed_Image
+	Veteran_Stand_Talk_Image
+	Veteran_Stand_Think_Image
+	Veteran_Stand_Idle_Image
+
+Cutscene_0_OTTruck======
+	Enabled Black GameObject
+	Adjusted KeyItem tilemap to include guard house
+	Adjusted ground and RandomizationOfPath tilemaps
+CutsceneDialogManager_OTTruck to have maria, kael, coco, and other guards idle
+	Adjusted Frontliner1_Walk_Right anim
+	Adjusted Frontliner1 Animator
+	Imported 2 Stand_Guard1 prefabs
+
+Cutscene_0_QC======
+	Adjusted KeyItem tilemap to include guard houses
+	Adjsuted ground Tilemap
+	Imported guard house in important items tile pallete
+	created new folder in Sprites > 4_TilePalletes and added the guardHouse tiles there
+	Adjusted Cutscene_0_QuarantineCamp_Script 1 & CutsceneDialogManager_QuarantineCamp1 in the inspector to adjust Dialouge_Frontliner2, fixed kael root motion, and added in the gameobjects in the public variables
+	Changed motion of Kael_Stand_Walk_QuarantineCamp_1
+	Adjusted Kael_Stand_Walk_QuarantineCamp_1 anim
+	Deleted ExitButtonText
+	Changed Source image of Exit to UI_Dialouge_Cross2
+
+
+Cutscene_0_InsideTheTent2======
+	Deleted ExitButtonText
+	Changed Source image of Exit to UI_Dialouge_Cross2
+
+
+
+
+Cutscene_0_InsideTheTent2_NEW======
+	Created a new material named BG(PC)
+	Added a new layer named Background in User layer 15
+	Added a new sorting layer named Background
+	Created a new 2d sprite gameobject named BG
+		Turned BG object into a prefab
+	Deleted ExitButtonText
+	Changed Source image of Exit to UI_Dialouge_Cross2
+
+
+Cutscene_0_InsideTheTent3======
+	Imported the BG prefab
+
+
+BattleMode_Tutorial======
+	Imported the BG prefab
+
+Cutscene_0_InsideTheTent_VaccineShot_NEW======
+	Imported the BG prefab
+
+
+NOTES =============
+	The reason why you can't see the npcs in the quarantineCamp is because the variables automatically sets to 1 instead of 0. 	
+		Can be recreated through playing the actual scene first instead of starting from the menu.
+		If started from the menu, it works alright.
+		A bit troublesome to manually enable the npcs but it's alright 
+	Fade in on OutsideTheTruck does not work 
+	Fade out when destroying coco, maria, and veteran when the dialouge is done does not work. It feels sudden 
